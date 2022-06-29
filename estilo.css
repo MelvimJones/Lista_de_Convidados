@@ -1,0 +1,44 @@
+body{
+    font-family: sans-serif;
+}
+.card{
+    background-color: slateblue;
+    color: white;
+    width: 70%;
+    padding: 20px;
+    margin: 50px auto;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px gray;
+}
+.card h1{
+    font-weight: 300;
+}
+.card input{
+    width: 70%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin: 16px 0px;
+    outline: none;
+}
+.card button{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin: 0px 5px;
+    font-weight: 600;
+    box-shadow: 2px 2px 15px gray;
+}
+.card button:hover{
+    cursor: pointer;
+    background-color: rgb(136, 136, 136);
+    color: white;
+}
+.card table{
+    width: 100%;
+}
+th,td{
+    padding: 8px;
+    border-bottom: 1px solid white;
+}
